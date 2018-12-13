@@ -24,6 +24,11 @@ public class BookShelf1 {
         return  new BookShelfIterator();
     }
 
+//    //普通模式
+////    public ArrayList<Book> getBooks(){
+////        return  books;
+////    }
+
     class  BookShelfIterator implements  Iterator{
         //        private BookShelf bookShelf; //采用内部类，可以直接调用外部类方法，不用添加引用。
         private int index ;

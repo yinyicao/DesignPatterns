@@ -21,6 +21,11 @@ public class BookShelf {
         return  last;
     }
 
+//    //传统模式：
+//    public Book[] getBooks(){
+//        return  books;
+//    }
+
     public Iterator iterator() {
 //        return new BookShelfIterator(this);
         return  new BookShelfIterator();
