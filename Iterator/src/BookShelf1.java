@@ -24,7 +24,7 @@ public class BookShelf1 {
         return  new BookShelfIterator();
     }
 
-//    //普通模式
+//    //传统模式
 ////    public ArrayList<Book> getBooks(){
 ////        return  books;
 ////    }
