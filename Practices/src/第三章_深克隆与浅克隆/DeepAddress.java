@@ -1,6 +1,8 @@
-package CustomerClone;
+package 第三章_深克隆与浅克隆;
 
-public class Address {
+import java.io.Serializable;
+
+public class DeepAddress implements Serializable {
     private  String addr;
 
     public String getAddr() {

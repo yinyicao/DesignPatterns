@@ -1,4 +1,4 @@
-package CustomerClone;
+package 第三章_深克隆与浅克隆;
 
 public class Customer implements Cloneable {
     private Address address = null;
