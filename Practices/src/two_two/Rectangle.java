@@ -1,6 +1,6 @@
 package two_two;
 
-public class Rectangle { // 长放心
+public class Rectangle { // 长方形
     private double width;
     private double height;
 
