@@ -1,4 +1,4 @@
-package two_two;
+package 第二章_判断正方形类是否是长方形的子类;
 
 public class Square extends Rectangle {  //正方形
     public Square(double size) {

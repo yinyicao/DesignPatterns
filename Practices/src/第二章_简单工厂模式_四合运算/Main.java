@@ -1,4 +1,4 @@
-package TheSumOfTwoNumbers;
+package 第二章_简单工厂模式_四合运算;
 
 public class Main {
     public static void main(String[] args) {
