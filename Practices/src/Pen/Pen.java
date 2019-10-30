@@ -1,10 +1,11 @@
 package Pen;
 
 public abstract class Pen {
-    public Color color;
-    public Size  size;
-    public void print(){
-        color.printColor();
-        size.printSize();
+    Color color;
+
+    public void setColor(Color color) {
+        this.color = color;
     }
+
+    public abstract void print();
 }

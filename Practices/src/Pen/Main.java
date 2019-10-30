@@ -2,34 +2,23 @@ package Pen;
 
 public class Main {
     public static void main(String[] args) {
-        BlackColor blackColor = new BlackColor();
-        RedColor  redColor= new RedColor();
-        SmallSize smallSize = new SmallSize();
-        LargeSize largeSize = new LargeSize();
-        MiddleSize middleSize = new MiddleSize();
+        Color blackColor,redColor;
+        blackColor= new BlackColor();
+        redColor= new RedColor();
 
-        Pen pen = new BlackSmallPen(blackColor,smallSize);
-        pen.print();
-        System.out.println("----------------------------");
+        Pen p1,p2,p3;
+        p1= new SmallPen();
+        p1.setColor(blackColor);
+        p1.print();
 
-        pen = new RedSmallPen(redColor,smallSize);
-        pen.print();
+        p2= new MiddlePen();
+        p2.setColor(redColor);
+        p2.print();
 
-        System.out.println("----------------------------");
-        pen = new BlackMiddlePen(blackColor,middleSize);
-        pen.print();
+        p3= new LargePen();
+        p3.setColor(blackColor);
+        p3.print();
 
-        System.out.println("----------------------------");
-        pen = new RedMiddlePen(redColor,middleSize);
-        pen.print();
-
-        System.out.println("----------------------------");
-        pen = new BlackLargePen(blackColor,largeSize);
-        pen.print();
-
-        System.out.println("----------------------------");
-        pen = new RedLargePen(redColor,largeSize);
-        pen.print();
 
     }
 }
